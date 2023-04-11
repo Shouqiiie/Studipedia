@@ -1,0 +1,315 @@
+body{
+    font-family: 'Satoshi', sans-serif;
+}
+
+.section-hero h1{
+    font-size: 54px; 
+}
+
+.section-hero img{
+    margin-left: 180px;
+}
+
+.section-collab img{
+    line-height: 50px;
+}
+
+.section-banner img{
+    width: 1260px;
+}
+
+.section-choose img{
+    width: 500px;
+}
+.section-choose{
+    margin-top: 100px;
+}
+
+.section-choose p{
+    font-size: 14px;
+}
+
+.section-courses{
+    margin-top: 100px;
+}
+
+.section-courses p{
+    font-size: 14px;
+}
+
+.section-courses img{
+    margin-right: 5px;
+}
+
+.section-courses span{
+    margin-right: 20px;
+}
+
+.section-courses .card{
+    box-shadow: 0px 24px 34px rgba(86, 86, 93, 0.15);
+    border-radius: 8px;
+}
+
+.section-courses .col-4 h5{
+    font-size: 20px;
+}
+
+.section-courses img{
+    margin-left: 5px;
+}
+
+.section-courses .col-4 img{
+    width: 344px;
+    margin: 0 auto;
+}
+
+.section-courses .card{
+    width: 24rem;
+}
+
+.section-courses img{
+    width: 30px;
+}
+
+.section-banner{
+    margin-top: 100px;
+}
+
+.section-choose h1{
+    font-size: 32px;
+}
+
+.section-choose img{
+    width: 64px;
+    align-items: center;
+}
+
+
+.section-footer .container{
+    margin-top: 130px;
+}
+
+.section-footer a{
+    text-decoration: none;
+    color: gray;
+}
+
+.section-footer p{
+    color: gray;
+    font-size: 14px;
+}
+
+.section-footer h6{
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.section-footer footer{
+    font-size: 14px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.section-footer h1{
+    margin-bottom: 14px;
+}
+
+.section-footer p{
+    letter-spacing: 0.3px;
+    line-height: 22px;
+}
+
+.section-choose img{
+    margin-left: 110px;
+}
+
+
+@media screen and (max-width:992px) {
+    .section-hero img{
+        margin-top: 20px;
+        width: 350px; 
+        margin-left: 0px;
+    }
+    
+    .section-hero{
+        text-align: center;
+    }
+
+    .section-hero h1{
+        font-size: 46px;
+    }
+
+    .section-collab img{
+        width: 150px; 
+        margin-left: 280px;
+        margin-bottom: 10px;
+    }
+
+    .section-collab h1{
+        font-size: 26px;
+    }
+
+    .section-hero h1{
+        text-align: center;
+        font-size: 34px;
+    }
+
+    .section-collab h1{
+        font-size: 28px;
+    }
+     
+    .section-choose img{
+        max-width: 350px;
+    }
+
+    .section-choose h1{
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .section-choose h6{
+        text-align: center;
+    }
+
+    .section-choose p img{
+        text-align: center;
+    }
+    
+    .section-choose a{
+        text-align: center;
+    }
+
+    .section-courses h1{
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .section-courses img{
+        margin-bottom: 10px;
+        margin-left: 15px;
+    }
+
+    .section-courses span{
+        margin-right: 32px;
+        margin-bottom: 20px;
+    }
+
+    .section-courses .row{
+        margin-top: 0px;
+        display: block;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .section-courses .card{
+        width: 21.5rem;
+        margin-bottom: 20px;
+        margin-left: 160px;
+    }
+
+    .section-courses .col-4 img{
+        width: 310px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .section-banner img{
+        width: 690px;
+    }
+
+    .section-footer footer{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .section-collab img{
+        max-width: 100px; 
+        margin-top: 100px;
+        align-items: center;
+    }
+
+    .section-hero h1{
+        text-align: center;
+        font-size: 34px;
+    }
+}
+
+@media screen and (max-width:576px){
+    .section-collab img{
+        margin-top: 0px;
+        display: block;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .section-hero h1{
+        text-align: center;
+        font-size: 34px;
+    }
+
+    .section-collab h1{
+        font-size: 24px;
+    }
+     
+    .section-choose img{
+        max-width: 280px;
+    }
+
+    .section-choose h1{
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .section-choose h6{
+        text-align: center;
+    }
+    
+    .section-choose a{
+        text-align: center;
+        margin-left: 85px;
+    }
+
+    .section-courses h1{
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .section-courses img{   
+        margin-bottom: 10px;
+        margin-left: 15px;
+    }
+
+    .section-courses span{
+        margin-right: 32px;
+        margin-bottom: 20px;
+    }
+
+    .section-courses .row{
+        margin-top: 0px;
+        display: block;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .section-courses .card{
+        width: 21.5rem;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+    .section-courses .col-4 img{
+        width: 310px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .section-banner img{
+        width: 365px;
+    }
+
+    .section-footer footer{
+        font-size: 12px;
+    }
+}
